@@ -1,7 +1,7 @@
 
 [server]
 	#Set to true to automatically use sleeping bags when placed
-	autoUse = true
+	autoUse = false
 	#Set to true to prevent sleeping depending on how long you previously slept
 	wellRested = false
 	#If well rested is true, this value is used to determine how long you need before being able to sleep again (larger numbers = can sleep sooner)

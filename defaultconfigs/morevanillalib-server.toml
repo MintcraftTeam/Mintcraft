@@ -1,11 +1,11 @@
 
 [features]
 	#If set true, tools may drop an item when they'll be used.
-	extraDrop = true
+	extraDrop = false
 	#If set true, bone axe and sword make extra damage against special mobs.
 	extraDamage = true
 	#If set to true the corresponding ore of the tool drops an additional resource.
-	doubleDrop = true
+	doubleDrop = false
 	#If set to true paper tools may hurt you.
 	damageByPaperTools = true
 	#If set true, (wither) skeletons will drop their head with a defined chance if killed with bone axe or sword.
