@@ -1,5 +1,3 @@
-# Mintcraft
-
 <a href="https://www.curseforge.com/minecraft/modpacks/mintcraft">
     <img border="0" alt="CurseForge" src="https://i.imgur.com/PvKssVH.png" width="256" height="256">
 </a>
