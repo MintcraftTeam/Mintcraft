@@ -1,9 +1,9 @@
 #Tools with the Acquisition enchantment automatically pick up drops.
-"Acquisition enabled" = true
+"Acquisition enabled" = false
 #Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
 "AerialAffinity enabled" = true
 #Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.
-"AnvilImprovements enabled" = true
+"AnvilImprovements enabled" = false
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
 "ArmorInvisibility enabled" = true
 #Storage for maps that automatically updates the displayed map as you explore.
@@ -27,11 +27,11 @@
 #Bookshelves that can hold up to 9 stacks of books and maps.
 "Bookcases enabled" = true
 #Campfires no longer damage mobs.
-"CampfiresNoDamage enabled" = true
+"CampfiresNoDamage enabled" = false
 #Candles are made from beeswax and have a lower ambient light than torches.
-"Candles enabled" = true
+"Candles enabled" = false
 #Cave spiders have a chance to drop cobwebs.
-"CaveSpidersDropCobwebs enabled" = true
+"CaveSpidersDropCobwebs enabled" = false
 #Chickens randomly drop feathers.
 "ChickensDropFeathers enabled" = true
 #Coral can be combined with sea lanterns to make colored variants.
@@ -41,7 +41,7 @@
 #A smaller storage solution with the benefit of being transportable.
 "Crates enabled" = true
 #Combine a tool or armor with a netherite nugget on an anvil to reduce its repair cost.
-"DecreaseRepairCost enabled" = true
+"DecreaseRepairCost enabled" = false
 #Right-clicking dirt with a shovel turns it into grass path.
 "DirtToPath enabled" = true
 #Endermites drop endermite powder that can be used to locate an End City.
@@ -51,7 +51,7 @@
 #Adds custom recipes.
 "ExtraRecipes enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
-"ExtractEnchantments enabled" = true
+"ExtractEnchantments enabled" = false
 #A player wearing feather falling enchanted boots will not trample crops.
 "FeatherFallingCrops enabled" = true
 #Glowballs can be thrown to produce a light source where they impact.
@@ -65,9 +65,9 @@
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
 "HoeHarvesting enabled" = true
 #Husks spawn anywhere within their biome and have a chance to drop sand.
-"HuskImprovements enabled" = true
+"HuskImprovements enabled" = false
 #Button to automatically tidy inventories.
-"InventoryTidying enabled" = true
+"InventoryTidying enabled" = false
 #A functional block that speeds up cooking of clay, bricks and terracotta.
 "Kilns enabled" = true
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
@@ -88,15 +88,15 @@
 #Creative music tracks may also play in survival mode.
 "MusicImprovements enabled" = true
 #Netherite nuggets can be combined to create a netherite ingot.
-"NetheriteNuggets enabled" = true
+"NetheriteNuggets enabled" = false
 #Parrots stay on your shoulder when jumping and falling. Crouch to make them dismount.
 "ParrotsStayOnShoulder enabled" = true
 #Right-clicking on a grass path block with a hoe turns it back into dirt.
 "PathToDirt enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
-"PortableCrafting enabled" = true
+"PortableCrafting enabled" = false
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest enabled" = true
+"PortableEnderChest enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns enabled" = true
 #A lantern that emits light when a redstone signal is received.
@@ -106,13 +106,13 @@
 #Decorative block made by smelting obsidian.
 "RefinedObsidian enabled" = true
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
-"RemoveNitwits enabled" = true
+"RemoveNitwits enabled" = false
 #Removes the potion enchantment glint so you can see what the potion color is.
 "RemovePotionGlint enabled" = true
 #Shows the contents of a Shulker Box on hover-over.
 "ShulkerBoxTooltips enabled" = true
 #Allows the night to pass when a specified number of players are asleep.
-"SleepImprovements enabled" = true
+"SleepImprovements enabled" = false
 #Smelt glowstone to get smooth glowstone.
 "SmoothGlowstone enabled" = true
 #Increases snow layers in cold biomes during thunderstorms.
@@ -124,21 +124,21 @@
 #Allows stews to stack.
 "StackableStews enabled" = true
 #Strays spawn anywhere within their biome and have a chance to drop blue ice.
-"StrayImprovements enabled" = true
+"StrayImprovements enabled" = false
 #Tamed animals do not take direct damage from players.
 "TamedAnimalsNoDamage enabled" = true
 #When applied, this enchantment lets you change the color of the enchanted glint using dye on an anvil. Requires Core 'Enchantment glint override' to be true.
-"Tinted enabled" = true
+"Tinted enabled" = false
 #As long as a Totem of Undying is in your inventory, it will be consumed to protect you from death.
 "UseTotemFromInventory enabled" = true
 #Barrels available in all types of vanilla wood.
 "VariantBarrels enabled" = true
 #Bookshelves available in all types of vanilla wood.
-"VariantBookshelves enabled" = true
+"VariantBookshelves enabled" = false
 #Chests available in all types of vanilla wood.
-"VariantChests enabled" = true
+"VariantChests enabled" = false
 #Ladders available in all types of vanilla wood.
-"VariantLadders enabled" = true
+"VariantLadders enabled" = false
 #Mobs may spawn with different textures.
 "VariantMobTextures enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
@@ -148,7 +148,7 @@
 #A witch has a chance to drop a Potion of Luck when killed by a player.
 "WitchesDropLuck enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
-"Woodcutters enabled" = true
+"Woodcutters enabled" = false
 
 [AnvilImprovements]
 	#If true, an enchanted book with a level higher than the maximum enchantment level may be applied to an item.
@@ -220,7 +220,7 @@
 	#Set the default glint color for all enchanted items.
 	"Enchantment glint color" = "purple"
 	#If true, replaces vanilla glint color rendering with Charm's, allowing for multiple enchantment glint colors.
-	"Enchantment glint override" = true
+	"Enchantment glint override" = false
 	#If true, routes additional debug messages into the standard game log.
 	"Debug mode" = false
 	#If inventory crafting or inventory ender chest modules are enabled, pressing escape or inventory key returns you to the inventory rather than closing the window.
@@ -258,9 +258,9 @@
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye" = true
 	#If true, adds a recipe for the Trident using prismarine shards and crystals.
-	Trident = true
+	Trident = false
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
-	"Soul Torch" = true
+	"Soul Torch" = false
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.
 	"Green Dye" = true
 
@@ -326,11 +326,11 @@
 
 [PortableCrafting]
 	#If true, sets a keybind for opening the portable crafting table (defaults to 'c').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [PortableEnderChest]
 	#If true, sets a keybind for opening the portable Ender Chest (defaults to 'b').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [RaidHorns]
 	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.
@@ -358,15 +358,15 @@
 
 [StackableEnchantedBooks]
 	#Maximum enchanted book stack size.
-	"Stack size" = 16
+	"Stack size" = 8
 
 [StackablePotions]
 	#Maximum potion stack size.
-	"Stack size" = 16
+	"Stack size" = 8
 
 [StackableStews]
 	#Maximum stew stack size.
-	"Stack size" = 16
+	"Stack size" = 8
 	#Also apply to suspicious stew.
 	"Enable suspicious stew" = false
 
