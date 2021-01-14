@@ -9,7 +9,7 @@
 	fertilizerRegressionChance = 0.0
 	#The chance to get a bonus growth when using Red Fertilizer.
 	#Range: 0.0 ~ 1.0
-	fertilizerBonusGrowthChance = 1.0
+	fertilizerBonusGrowthChance = 0.85
 	#List of names the merchant can have.
 	merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
 	#The range at which the chicken nest picks up laid eggs.
@@ -20,5 +20,5 @@
 	feedingTroughMaxAnimals = 8
 	#The chance to get a bonus crop when using Green Fertilizer.
 	#Range: 0.0 ~ 1.0
-	fertilizerBonusCropChance = 1.0
+	fertilizerBonusCropChance = 0.85
 
