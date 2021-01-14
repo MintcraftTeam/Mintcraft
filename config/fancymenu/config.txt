@@ -22,7 +22,7 @@ B:legacybuttonids = 'false';
 
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
-B:hidelogo = 'false';
+B:hidelogo = 'true';
 B:showmainmenufooter = 'false';
 B:hiderealmsnotifications = 'false';
 B:hideforgenotifications = 'false';
@@ -31,7 +31,7 @@ B:hideforgenotifications = 'false';
 ##[mainmenu_splash]
 
 I:splashrotation = '-20';
-B:hidesplashtext = 'false';
+B:hidesplashtext = 'true';
 I:splashoffsetx = '0';
 I:splashoffsety = '0';
 
@@ -49,9 +49,9 @@ B:loadingscreendarkmode = 'false';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Mintcraft';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[layouteditor]
