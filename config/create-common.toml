@@ -60,7 +60,7 @@
 			enable = true
 			#
 			#Range: > 0
-			clusterSize = 14
+			clusterSize = 12
 
 		[worldgen.v1.zinc_ore_desert]
 			#
@@ -77,7 +77,7 @@
 			enable = true
 			#
 			#Range: > 0
-			clusterSize = 17
+			clusterSize = 16
 
 		[worldgen.v1.limestone]
 			#
@@ -125,7 +125,7 @@
 			maxHeight = 55
 			#
 			#Whether to spawn this in your World
-			enable = true
+			enable = false
 			#
 			#Range: > 0
 			clusterSize = 15
