@@ -5,7 +5,7 @@
 	"Piston Push Limit" = 12
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
 	"Ignored Screens" = ["blusunrize.immersiveengineering.client.gui.CraftingTableScreen", "com.tfar.craftingstation.client.CraftingStationScreen", "com.refinedmods.refinedstorage.screen.grid.GridScreen", "appeng.client.gui.implementations.CraftingTermScreen", "appeng.client.gui.implementations.PatternTermScreen", "com.blakebr0.extendedcrafting.client.screen.EliteTableScreen", "com.blakebr0.extendedcrafting.client.screen.EliteAutoTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen"]
 	"Use Anti Overlap" = true
@@ -205,7 +205,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
@@ -224,7 +224,7 @@
 		"Render Items In Chat" = true
 
 [tools]
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
@@ -333,7 +333,7 @@
 	"Campfires Boost Elytra" = true
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = false
+		"Requires Empty Hand" = true
 
 	[tweaks.pat_the_dogs]
 		#How many ticks it takes for a dog to want affection after being pet/tamed; leave -1 to disable
@@ -398,7 +398,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 1.0
+		"Percent Req" = 0.3
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -449,13 +449,13 @@
 	"Sandstone Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Permafrost Underground Biome" = true
-	"Underground Clay" = true
+	"Underground Clay" = false
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = true
+	Crevices = false
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 	"Realistic World Gen" = true
 	Biotite = true
 	"Big Stone Clusters" = true
@@ -493,7 +493,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 250
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,)
@@ -518,10 +518,10 @@
 
 	[world.speleothems]
 		"Tries Per Chunk In Nether" = 4
-		"Speleothems Per Chunk In Nether" = 12
-		"Speleothems Per Chunk" = 12
+		"Speleothems Per Chunk In Nether" = 6
+		"Speleothems Per Chunk" = 6
 		"Max Ylevel" = 55
-		"Tries Per Chunk" = 60
+		"Tries Per Chunk" = 50
 
 		[world.speleothems.dimensions]
 			Dimensions = []
@@ -1418,9 +1418,9 @@
 [mobs]
 	Frogs = true
 	Crabs = true
-	Stonelings = true
+	Stonelings = false
 	Foxhound = true
-	Toretoise = true
+	Toretoise = false
 
 	[mobs.stonelings]
 		"Cautious Stonelings" = true
@@ -1452,7 +1452,7 @@
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 100
+			"Spawn Weight" = 40
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1598,15 +1598,15 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Backpack = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Pipes = true
+	Backpack = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Pipes = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
-		"Spawn Totem on PVP Kill" = false
+		"Dark Souls Mode" = false
+		"Spawn Totem on PVP Kill" = true
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		"Enable Soul Compass" = true
