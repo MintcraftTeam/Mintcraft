@@ -11,7 +11,7 @@
 	#I haven't tested most of the mods included here. let me know if they work
 	[blocks.cage]
 		#catchable mobs
-		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "minecraft:fox", "minecraft:ocelot", "quark:crab", "quark:foxhound", "quark:frog", "autumnity:snail", "buzzierbees:honey_slime", "swampexpansion:slabfish"]
+		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "minecraft:fox", "minecraft:ocelot", "quark:crab", "quark:foxhound", "quark:frog", "quark:stoneling", "quark:toretoise", "autumnity:snail", "buzzierbees:honey_slime", "swampexpansion:slabfish"]
 		#allow all mobs to be captured by jars
 		cage_allow_all_mobs = false
 		#additional mobs that you'll be able to catch with the added condition that it has to be a baby variant. No need to include the ones already in cage_mobs
