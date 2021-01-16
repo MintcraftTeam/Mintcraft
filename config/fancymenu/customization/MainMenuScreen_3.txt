@@ -1,0 +1,209 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  biggerthanwidth = 3360
+  smallerthanheight = 1520
+  renderorder = foreground
+  smallerthanwidth = 3520
+  biggerthanheight = 1360
+}
+
+customization {
+  path = config/fancymenu/textures/background/21_9.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-centered
+  x = 2
+  action = movebutton
+  y = -110
+}
+
+customization {
+  identifier = %id=400322%
+  width = 110
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  backgroundnormal = config/fancymenu/textures/button.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -112
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=400382%
+  width = 110
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  backgroundnormal = config/fancymenu/textures/button.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-centered
+  x = 2
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=502382%
+  width = 110
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  backgroundnormal = config/fancymenu/textures/button.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -140
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=376382%
+  width = 24
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/lang-hover.png
+  backgroundnormal = config/fancymenu/textures/lang.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-centered
+  x = -112
+  action = movebutton
+  y = -110
+}
+
+customization {
+  identifier = %id=400298%
+  width = 110
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  backgroundnormal = config/fancymenu/textures/button.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-centered
+  x = -112
+  action = movebutton
+  y = -82
+}
+
+customization {
+  identifier = %id=400346%
+  width = 110
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  backgroundnormal = config/fancymenu/textures/button.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = 2
+  width = 110
+  action = addbutton
+  y = -82
+  backgroundhovered = config/fancymenu/textures/button-hover.png
+  label = Rent a Server
+  backgroundnormal = config/fancymenu/textures/button.png
+  value = https://bisecthosting.com/mintcraft
+  height = 24
+}
+
+customization {
+  path = config/fancymenu/textures/bisect.png
+  orientation = bottom-left
+  x = 12
+  width = 81
+  action = addtexture
+  y = -38
+  height = 26
+}
+
+customization {
+  path = config/fancymenu/textures/logo.png
+  orientation = top-centered
+  x = -100
+  width = 200
+  action = addtexture
+  y = 32
+  height = 200
+}
+
