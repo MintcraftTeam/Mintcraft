@@ -28,7 +28,7 @@
 	[Arrows.Explosive]
 		#Adjust this to set the explosion strength for the Explosive Arrow.
 		#Range: 0.5 ~ 16.0
-		Strength = 1.9
+		Strength = 2.0
 		#If TRUE, explosions break blocks.
 		"Break Blocks" = true
 		#If TRUE, explosions cause fires if the arrow is on fire.
